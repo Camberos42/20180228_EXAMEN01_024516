@@ -1,0 +1,12 @@
+Justificacion del diagrama:
+El diagrama consiste en una clase abstracta que es la de banco,
+por asi decirlo es la calse principal, de esta surgen 3 clases mas, 
+que son las de cada banco (los 3 bancos distintos), estas van a heredar
+de Bank en donde bank contendra un metodo que es el de transferencia y 
+el de respuesta, estas dos metodos tambien los tendra cada banco junto con
+los atributos de cuenta origen , cuenta destino y el monto, el cual se ira 
+modificando cuando se haga una transaccion. Y para usar distintos tipos
+de protocolos se crea una interface que tendra un metodo en donde se mostrara
+el formato, y de estas surgen otros 3 protocolos distintos para notificarle 
+al banco la forma en la que se transfiere la informacion, ademas se tiene 
+una clse cliente con su cuenta e info.
